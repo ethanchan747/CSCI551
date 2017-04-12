@@ -1,0 +1,33 @@
+proxy port: 43502
+router: 2, pid: 4202, port: 36347, IP: 192.168.202.2
+router: 4, pid: 4200, port: 46315, IP: 192.168.204.2
+router: 3, pid: 4201, port: 59228, IP: 192.168.203.2
+router: 1, pid: 4203, port: 60094, IP: 192.168.201.2
+hop: 1, router: 4
+hop: 2, router: 3
+hop: 3, router: 1
+1111
+0100
+1011
+
+new-fake-diffie-hellman, router index: 4, circuit outgoing: 0x01, key: 0xebcc22c9e1e9c5552b477e9554e8c4a3
+pkt from port: 46315, length: 3, contents: 0x630001
+incoming extend-done circuit, incoming: 0x01 from port: 46315
+new-fake-diffie-hellman, router index: 3, circuit outgoing: 0x01, key: 0xeccb25cee6eec2522c40799253efc3a4
+
+1111
+0011
+
+pkt from port: 46315, length: 3, contents: 0x630001
+incoming extend-done circuit, incoming: 0x01 from port: 46315
+new-fake-diffie-hellman, router index: 1, circuit outgoing: 0x01, key: 0xeec927cce4ecc0502e427b9051edc1a6
+
+1111
+0001
+
+pkt from port: 46315, length: 3, contents: 0x630001
+incoming extend-done circuit, incoming: 0x01 from port: 46315
+ICMP from tunnel, src: 10.0.2.15, dst: 128.30.2.155, type is: 8
+ICMP from tunnel, src: 10.0.2.15, dst: 128.30.2.155, type is: 8
+pkt from port: 46315, length: 131, contents: 0x6400011c1caddaa042c23ec7c81a3c58d413e18b602f85a9425cce3f2a55adcc9bedd5e446da75f0364f887b11394675d16d8b49973dfc9927c26f44b93971620326bc65fb1995495d68f5c5a3099e264c04770118b88d33f6d5ab350548418f458b1ce5d07928f96da428f4058b62b7b76c6aff220a4b65b14ea02cd5c3f9765c251f
+incoming packet, circuit incoming: 0x1, src: 128.30.2.155, dst: 10.0.2.15

@@ -1,0 +1,12 @@
+proxy port: 49750
+router: 5, pid: 2445, port: 45541, IP: 192.168.205.2
+router: 6, pid: 2444, port: 37311, IP: 192.168.206.2
+router: 4, pid: 2446, port: 43678, IP: 192.168.204.2
+router: 3, pid: 2447, port: 34203, IP: 192.168.203.2
+router: 1, pid: 2449, port: 46403, IP: 192.168.201.2
+router: 2, pid: 2448, port: 59914, IP: 192.168.202.2
+hop: 1, router: 4
+pkt from port: 43678, length: 3, contents: 0x530001
+incoming extend-done circuit, incoming: 0x01 from port: 43678
+ICMP from tunnel, src: 10.0.2.15, dst: 128.30.2.134, type is: 8
+ICMP from tunnel, src: 10.0.2.15, dst: 128.30.2.134, type is: 8

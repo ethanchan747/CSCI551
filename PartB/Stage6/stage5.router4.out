@@ -1,0 +1,23 @@
+router: 4, pid: 4200, port: 46315, IP: 192.168.204.2
+pkt from port: 43502, length: 19, contents: 0x650001ebcc22c9e1e9c5552b477e9554e8c4a3
+fake-diffie-hellman, new circuit incoming: 0x1, key: 0xebcc22c9e1e9c5552b477e9554e8c4a3
+pkt from port: 43502, length: 19, contents: 0x620001a5470fcb97343ed5ffba44ff6ab6a6cc
+new extend circuit: incoming: 0x01, outgoing: 0x401 at 59228
+pkt from port: 43502, length: 35, contents: 0x65000164322f2671e7e668c98deca3dbb45e60cd1d55e0904c4765a8bc940fb0ce7062
+fake-diffie-hellman, forwarding,  circuit incoming: 0x1, key: 0xeccb25cee6eec2522c40799253efc3a4cd1d55e0904c4765a8bc94fb0ce7062
+pkt from port: 43502, length: 35, contents: 0x620001fea8d6c33c91119720488d94708eff1c6bfe4e21f72032e0e7e9dc7d2b420ec2
+forwarding extend circuit: incoming: 0x1, outgoing: 0x401 at 59228
+pkt from port: 59228, length: 3, contents: 0x630401
+forwarding extend-done circuit: incoming: 0x401, outgoing: 0x01 at 43502
+pkt from port: 43502, length: 51, contents: 0x65000165a4f9c4c42e24315de6714ac355191e8c7b2c870822b3b5fc6658b94e9cab184002ddb006c7477e3e38f5a3c2acae6d
+fake-diffie-hellman, forwarding,  circuit incoming: 0x1, key: 0x55ebd7625b26c332a212e608047c74f1a83f781045cbe284927a9039220126464002ddb006c7477e3e38f5a3c2acae6d
+pkt from port: 43502, length: 51, contents: 0x620001772b5f015e9b9b8fc2fd1a2871b0c724eeb0e976c462d4fff638b8a6b28214d933722f14c7fde7afa96b236cf9031e2d
+forwarding extend circuit: incoming: 0x1, outgoing: 0x401 at 59228
+pkt from port: 59228, length: 3, contents: 0x630401
+forwarding extend-done circuit: incoming: 0x401, outgoing: 0x01 at 43502
+pkt from port: 43502, length: 131, contents: 0x6100019a64830d5671d385a0918f51acb4eee79dc87a240ec433c7f3959abc2545e86ab6cbd22ee023b0f8ea285b9fd68c556581e27ebf0d5a6bbaf795142186442fc350458a7580587fe92187783ea30efc6af6276062dfb97b2f88ee804823d73112ee4b27135feaea01b2212949420289ef76f415d1f15e50396e0e6fcf3b242c66
+relay encrypted packet, circuit incoming: 0x01, outgoing: 0x401
+pkt from port: 43502, length: 131, contents: 0x6100010ca1ad987c3524bdb74d6fe8b0e43a887dcbe93187036e1addec405b8d5884246840771fc129b2c6eee5bafc8b85dd10cce07571e33718e9b0056db41a78ce00ed07aa37a7d16f12ce91fec971186750edf1f46b0d0d2a5f6b647dcc48665f2dfdc6b2134df7c978c7737eee51478fdd84dd0cc5c8b1a3bf9f4d34d64297ae64
+relay encrypted packet, circuit incoming: 0x01, outgoing: 0x401
+pkt from port: 59228, length: 115, contents: 0x6404016eaecf25118b32a0d8ee13df511a16783d2b057112bb061ebf31c576ef3d5eb2f31f970fb5dab1808440f655fae6548ea398e5866afba24c3bcd7137f7e3338dedb6587c6ab03138922b6dc4c5c88d5dec43a593950951612280de3054a62dd303e8459ab3439db7ab4730a8edb26540
+relay reply encrypted packet, circuit incoming: 0x401, outgoing: 0x01

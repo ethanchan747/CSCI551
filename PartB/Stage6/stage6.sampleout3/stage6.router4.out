@@ -1,0 +1,21 @@
+router: 4, pid: 3307, port: 60520, IP: 192.168.204.2
+pkt from port: 36021, length: 19, contents: 0x6500016f2272720618b7253f2494e71f2024ea
+fake-diffie-hellman, new circuit incoming: 0x01, key: 0x6f2272720618b7253f2494e71f2024ea
+pkt from port: 36021, length: 19, contents: 0x620001e5a92897440136fe999ee9ff89d9b6ff
+new extend circuit: incoming: 0x01, outgoing: 0x401 at 59257
+pkt from port: 36021, length: 35, contents: 0x6500016e09fc925e5166f5c5adbbb68f8730f45aa24cb14e7e2f35cff4a0ed080c551e
+fake-diffie-hellman, forwarding,  circuit incoming: 0x01, key: 0x68257575011fb022382393e0182723ed5aa24cb14e7e2f35cff4a0ed080c551e
+pkt from port: 36021, length: 35, contents: 0x62000107f0f088884dafcbb89cc0a15f6aa9b0184b2efa5e7576e0700f5d47ba0f08b2
+forwarding extend circuit: incoming: 0x01, outgoing: 0x401 at 59257
+pkt from port: 59257, length: 3, contents: 0x630401
+forwarding extend-done circuit, incoming: 0x401, outgoing: 0x01 at 36021
+pkt from port: 36021, length: 51, contents: 0x65000191290f67b82a4dd743230d645ce7e8f5f5fa3becb067d413108446aa358dd8727762e4b763852d8c811f2b204369087a
+fake-diffie-hellman, forwarding,  circuit incoming: 0x01, key: 0x2b02b910ede39fad94caa98dc45d3e37cda10e0bec6f8270c65009a105ad07717762e4b763852d8c811f2b204369087a
+pkt from port: 36021, length: 51, contents: 0x620001af8dcb0c5e030b3982311512a67c723902710fb69e146b3a2a8743a654c927016aa6c9adfda73311d6776c46b852047c
+forwarding extend circuit: incoming: 0x01, outgoing: 0x401 at 59257
+pkt from port: 59257, length: 3, contents: 0x630401
+forwarding extend-done circuit, incoming: 0x401, outgoing: 0x01 at 36021
+pkt from port: 36021, length: 131, contents: 0x610001c207917fec7781a59bac804131eeda2973ac95b9accfb569f39da3d079f130cee1785e3c5ae898a31b2696894eaea5cecb5ced59c88622d3ebda6851540bde45b0f8568fc7cf6e40a1450f5269ee781b341e70ddb80536e9edfb0082212a4bf0c3bfd4b63ed490811a47ab752024324cf343b9bf1c9daa54bc32130db9399979
+relay encrypted packet, circuit incoming: 0x01, outgoing: 0x401
+pkt from port: 59257, length: 115, contents: 0x6404014b7ec759e554caeb330f1f1ed7185fc82b06a9d5ca2912b970b7a8d53ccf827d1e0972c490f496583dfe7357f8325703bd9c6c77e821a73a9a51e355ad951f28cf2d9d313df8ef2c91ec3ab5098092d0855184b8435258f696d93a7cfc132864f22a6b4ad58356d1404bc59a6ae4703e
+relay reply encrypted packet, circuit incoming: 0x401, outgoing: 0x01

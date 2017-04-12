@@ -1,0 +1,15 @@
+router: 3, pid: 3306, port: 59257, IP: 192.168.203.2
+pkt from port: 60520, length: 19, contents: 0x65040168257575011fb022382393e0182723ed
+fake-diffie-hellman, new circuit incoming: 0x401, key: 0x68257575011fb022382393e0182723ed
+pkt from port: 60520, length: 19, contents: 0x6204010fdc47a34e8379e9b5c989cc35c653d3
+new extend circuit: incoming: 0x401, outgoing: 0x301 at 33492
+pkt from port: 60520, length: 35, contents: 0x6504012b02b910ede39fad94caa98dc45d3e37cda10e0bec6f8270c65009a105ad0771
+fake-diffie-hellman, forwarding,  circuit incoming: 0x401, key: 0x6a277777031db2203a2191e21a2521efcda10e0bec6f8270c65009a105ad0771
+pkt from port: 60520, length: 35, contents: 0x6204014508b8062eee9199d53c49f62259ff12ab4187c01c79c5542360878cd7fc0b2b
+forwarding extend circuit: incoming: 0x401, outgoing: 0x301 at 33492
+pkt from port: 33492, length: 3, contents: 0x630301
+forwarding extend-done circuit, incoming: 0x301, outgoing: 0x401 at 60520
+pkt from port: 60520, length: 115, contents: 0x610401004a33f9be5c8bf1f334efe111fc05dff8da56a380d7fcca5e79140b65cdd09cee01e58d5f76158dad1ea7609a474479bdfd716697affaae63289430db2056331e21e590d7ca1da37b2c86adf0a12bef761815565b82193e4a6118ba0ba99b42cce113d00e0871fa133ebcd7cfaa4ba4
+relay encrypted packet, circuit incoming: 0x401, outgoing: 0x301
+pkt from port: 33492, length: 99, contents: 0x64030105733d8a9459e3b2ec3c8d79a86863912bcb7b6c21eec4992fd15648da80b8abec738a7ea1de0f44ce72aa8a98b52076cfb0ee20cfa35567ead719d38ba03f79e4c7deb2a000a8b042b27375556884b25d973b62916eb56bc2c5edfeffc72cf3
+relay reply encrypted packet, circuit incoming: 0x301, outgoing: 0x401

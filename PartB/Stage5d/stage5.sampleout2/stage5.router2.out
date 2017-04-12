@@ -1,0 +1,6 @@
+router: 2, pid: 2949, port: 32792, IP: 192.168.202.2
+pkt from port: 43155, length: 5, contents: 0x520101ffff
+new extend circuit: incoming: 0x101, outgoing: 0x201 at 65535
+pkt from port: 43155, length: 87, contents: 0x51010145000054401040004001ee34c0a8c902801e029b080026b50b8b00013a753f545bf2050008090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+outgoing packet, circuit incoming: 0x101, incoming src:192.168.201.2, outgoing src: 192.168.202.2, dst: 128.30.2.155
+incoming packet, src:128.30.2.155, dst: 192.168.202.2, outgoing circuit: 0x101

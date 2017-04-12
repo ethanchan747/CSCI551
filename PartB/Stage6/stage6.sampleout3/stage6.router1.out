@@ -1,0 +1,8 @@
+router: 1, pid: 3304, port: 33492, IP: 192.168.201.2
+pkt from port: 59257, length: 19, contents: 0x6503016a277777031db2203a2191e21a2521ef
+fake-diffie-hellman, new circuit incoming: 0x301, key: 0x6a277777031db2203a2191e21a2521ef
+pkt from port: 59257, length: 19, contents: 0x62030199515a0d707340c36814ac6e4ab1df07
+new extend circuit: incoming: 0x301, outgoing: 0x101 at 65535
+pkt from port: 59257, length: 99, contents: 0x61030127225aa604670a44d11b35e79d6c37e019cf3c6215029cd6aa114b68432e5d638cae3bd33e23f7277d6ae5f3b7848144294f6e0141e41b0eba3357895bae827e457e6981b6ecaf52ad0fda53af2b19fc0d1ebfc33391d777cf1a2a9476bae1ab
+outgoing packet, circuit incoming: 0x301, incoming src:0.0.0.0, outgoing src: 192.168.201.2, dst: 128.30.2.155
+incoming packet, src:128.30.2.155, dst: 192.168.201.2, outgoing circuit: 0x301

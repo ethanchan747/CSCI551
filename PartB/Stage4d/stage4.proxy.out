@@ -1,0 +1,5 @@
+proxy port: 47191
+router: 3, pid: 4017, port: 45565
+router: 2, pid: 4018, port: 60502
+router: 1, pid: 4019, port: 49046
+router: 4, pid: 4016, port: 56503

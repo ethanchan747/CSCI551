@@ -1,0 +1,20 @@
+proxy port: 36021
+router: 4, pid: 3307, port: 60520, IP: 192.168.204.2
+router: 3, pid: 3306, port: 59257, IP: 192.168.203.2
+router: 2, pid: 3305, port: 55776, IP: 192.168.202.2
+router: 1, pid: 3304, port: 33492, IP: 192.168.201.2
+hop: 1, router: 4
+hop: 2, router: 3
+hop: 3, router: 1
+new-fake-diffe-hellman, router index: 4, circuit outgoing: 0x01, key: 0x6f2272720618b7253f2494e71f2024ea
+pkt from port: 60520, length: 3, contents: 0x630001
+incoming extend-done circuit, incoming: 0x1 from port: 60520
+new-fake-diffe-hellman, router index: 3, circuit outgoing: 0x01, key: 0x68257575011fb022382393e0182723ed
+pkt from port: 60520, length: 3, contents: 0x630001
+incoming extend-done circuit, incoming: 0x1 from port: 60520
+new-fake-diffe-hellman, router index: 1, circuit outgoing: 0x01, key: 0x6a277777031db2203a2191e21a2521ef
+pkt from port: 60520, length: 3, contents: 0x630001
+incoming extend-done circuit, incoming: 0x1 from port: 60520
+ICMP from tunnel, src: 192.168.97.131, dst: 128.30.2.155, type: 8
+pkt from port: 60520, length: 131, contents: 0x6400018ebb7daf9a168b6ddf1d47e27c646f5d2d63cc63b99b2b41f98887532949732c794c204949b5630b0801548a1432897b6ad39cd0553e8ebb6915a39b97694606958f8806f4733ed612f0c3d656230f23bef4973373b009d173537a9a5ed52de6f79556788ad39bfaac48cc4705809965ba40e21b3a02490cc1d5b1f20dfd25b3
+incoming packet, circuit incoming: 0x01, src:128.30.2.155, dst: 192.168.97.131

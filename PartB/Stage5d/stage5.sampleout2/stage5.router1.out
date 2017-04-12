@@ -1,0 +1,11 @@
+router: 1, pid: 2948, port: 43155, IP: 192.168.201.2
+pkt from port: 49306, length: 5, contents: 0x5200018018
+new extend circuit: incoming: 0x01, outgoing: 0x101 at 32792
+pkt from port: 49306, length: 5, contents: 0x520001ffff
+forwarding extend circuit: incoming: 0x01, outgoing: 0x101 at 32792
+pkt from port: 32792, length: 3, contents: 0x530101
+forwarding extend-done circuit, incoming: 0x101, outgoing: 0x01 at 49306
+pkt from port: 49306, length: 87, contents: 0x5100014500005440104000400155b4c0a86183801e029b080026b50b8b00013a753f545bf2050008090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+relay packet, circuit incoming: 0x01, outgoing: 0x101, incoming src:192.168.97.131, outgoing src: 192.168.201.2, dst: 128.30.2.155
+pkt from port: 32792, length: 87, contents: 0x54010145000054401040004001ee34801e029bc0a8c9020000f4730b8b00013a753f545bf2050008090a0b0c0d0e0f101112131415161718191a1b1c1d1e1f202122232425262728292a2b2c2d2e2f3031323334353637
+relay reply packet, circuit incoming: 0x101, outgoing: 0x01, src: 128.30.2.155, incoming dst: 192.168.201.2, outgoing dest: 192.168.97.131

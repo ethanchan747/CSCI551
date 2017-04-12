@@ -1,0 +1,16 @@
+router: 1, pid: 4203, port: 60094, IP: 192.168.201.2
+pkt from port: 59228, length: 19, contents: 0x650301eec927cce4ecc0502e427b9051edc1a6
+fake-diffie-hellman, new circuit incoming: 0x301, key: 0xeec927cce4ecc0502e427b9051edc1a6
+pkt from port: 59228, length: 19, contents: 0x620301df4703eed99701c6667982dbe6d70b82
+new extend circuit: incoming: 0x301, outgoing: 0x101 at 65535
+pkt from port: 59228, length: 99, contents: 0x61030113e0bf0ee3102c50791e27bba186e7db99478cbf34b6bdc564c343c2527e29759b7dd1ad0d12585717a1434fac3d4c793a913b8ea987c51d55c7493e3b24945306e056a8d23acf8f7ea77eb4dedbfba42a08ce46f7bc99428e0566c6045811fe
+outgoing packet, circuit incoming: 0x301, incoming src: 0.0.0.0, outgoing src: 192.168.201.2, dst: 128.30.2.155
+pkt from port: 59228, length: 99, contents: 0x610301656faae72262d54524ef2aa2fcc61f91f84351df1ad093c3d3a09333a2ccc0dae9901208760f1209561f9092f297452be7e7d8bd526f5b4f60a15e3f4451baa64e3fd99f018918c493682ab8fa07cbbca9fc2fd10584b8eaf4284cca2f81f137
+outgoing packet, circuit incoming: 0x301, incoming src: 0.0.0.0, outgoing src: 192.168.201.2, dst: 128.30.2.155
+incoming packet, src: 128.30.2.155, dst: 192.168.201.2, outgoing circuit: 0x0
+incoming packet, src: 128.30.2.155, dst: 192.168.201.2, outgoing circuit: 0x0
+incoming packet, src: 128.30.2.155, dst: 192.168.201.2, outgoing circuit: 0x0
+incoming packet, src: 128.30.2.155, dst: 192.168.201.2, outgoing circuit: 0x1
+incoming packet, src: 128.30.2.155, dst: 192.168.201.2, outgoing circuit: 0x0
+incoming packet, src: 128.30.2.155, dst: 192.168.201.2, outgoing circuit: 0x0
+incoming packet, src: 128.30.2.155, dst: 192.168.201.2, outgoing circuit: 0x301
