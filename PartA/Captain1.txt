@@ -1,0 +1,2 @@
+Resources$5
+Confidence$7

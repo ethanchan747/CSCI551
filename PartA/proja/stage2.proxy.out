@@ -1,0 +1,26 @@
+proxy port: 45271
+router: 1, pid: 1798, port: 36517
+ICMP from tunnel, src: 10.0.2.15, dst: 128.125.253.194, type is: 8
+ICMP from port: 36517, src: 128.125.253.194, dst: 10.0.2.15, type is: 0
+ICMP from tunnel, src: 10.0.2.15, dst: 128.125.253.194, type is: 8
+ICMP from port: 36517, src: 128.125.253.194, dst: 10.0.2.15, type is: 0
+ICMP from tunnel, src: 10.0.2.15, dst: 128.125.7.23, type is: 8
+ICMP from port: 36517, src: 128.125.7.23, dst: 10.0.2.15, type is: 0
+ICMP from tunnel, src: 10.0.2.15, dst: 128.125.7.23, type is: 8
+ICMP from port: 36517, src: 128.125.7.23, dst: 10.0.2.15, type is: 0
+ICMP from tunnel, src: 10.0.2.15, dst: 128.30.2.155, type is: 8
+ICMP from port: 36517, src: 128.30.2.155, dst: 10.0.2.15, type is: 0
+ICMP from tunnel, src: 10.0.2.15, dst: 128.125.253.194, type is: 8
+ICMP from port: 36517, src: 128.125.253.194, dst: 10.0.2.15, type is: 0
+ICMP from tunnel, src: 10.0.2.15, dst: 128.125.253.194, type is: 8
+ICMP from port: 36517, src: 128.125.253.194, dst: 10.0.2.15, type is: 0
+ICMP from tunnel, src: 10.0.2.15, dst: 128.125.7.23, type is: 8
+ICMP from port: 36517, src: 128.125.7.23, dst: 10.0.2.15, type is: 0
+ICMP from tunnel, src: 10.0.2.15, dst: 128.125.7.23, type is: 8
+ICMP from port: 36517, src: 128.125.7.23, dst: 10.0.2.15, type is: 0
+ICMP from tunnel, src: 10.0.2.15, dst: 128.30.2.155, type is: 8
+ICMP from port: 36517, src: 128.30.2.155, dst: 10.0.2.15, type is: 0
+ICMP from tunnel, src: 10.0.2.15, dst: 128.30.2.155, type is: 8
+ICMP from port: 36517, src: 128.30.2.155, dst: 10.0.2.15, type is: 0
+ICMP from tunnel, src: 10.0.2.15, dst: 128.30.2.155, type is: 8
+ICMP from port: 36517, src: 128.30.2.155, dst: 10.0.2.15, type is: 0
