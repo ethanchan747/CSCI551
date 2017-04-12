@@ -1,0 +1,32 @@
+sudo mount -t vboxsf project ./Desktop/shared
+sudo mount -t vmwaresf Project ./Desktop/shared
+
+
+“vmhgfs” maybe in bin or tmp?
+
+
+
+Instructions for copying “Filename” to desired “directory”:
+1. Enter into directory with desired code you want to copy
+2. Type “cp Filename directory”
+3. Open code and in bottom buffer space say “yes to revert”
+
+
+Don’t have to do this but just use “sudo” run or tunnel set up for root privileges
+
+To do a bunch of lines/commmands in a terminal:
+
+1) Create a new file “FILE” with:
+
+#!/bin/bash
+
+sudo ip tun tap add dev tun1 mode tun
+etc..
+
+2) “sudo mv FILE.txt FILE” to change name from FILE.txt to FILE
+
+3) In VM do “chmod 700 FILE” to create executable
+
+4) Open FILE in VM and get rid of formatting changes between systems
+
+5) “sudo ./FILE”
