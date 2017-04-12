@@ -1,0 +1,16 @@
+router: 6, pid: 2323, port: 36972, IP: 192.168.206.2
+pkt from port: 48824, length: 19, contents: 0x650403dabce1443ab1e4dcedcfd5475e87403d
+fake-diffie-hellman, new circuit incoming: 0x403, key: 0xdabce1443ab1e4dcedcfd5475e87403d
+pkt from port: 48824, length: 19, contents: 0x620403d5f19b53b57ea2e2d97492b3df1fceea
+new extend circuit: incoming: 0x403, outgoing: 0x603 at 65535
+pkt from port: 48824, length: 99, contents: 0x61040382585839f95c78259e9aba6b91007608441f358d1fcea1f5b1a40342b71ea4dcea5337147fc38fb9ee85e88b6964257fc5b7b173cc6b05950edeab50e31d0495fa2170edb4bb3cee104a80437521779121675396cc54a3fb2536dc392b79b935
+outgoing packet, circuit incoming: 0x403, incoming src: 0.0.0.0, outgoing src: 192.168.206.2, dst: 128.30.2.155
+pkt from port: 48824, length: 99, contents: 0x61040373925c40c49cad8f7ac3115555e5471c1dd4987aee8d3d4ca660ae803f92d0fa97a999ffdae870995d4d27e547b288f6fa4174ba2ac12694218d7c3d98b69cbd497653146e780f6cafd54dfea3425486bf7053c739bb71b46d048a4adf143de9
+outgoing packet, circuit incoming: 0x403, incoming src: 0.0.0.0, outgoing src: 192.168.206.2, dst: 128.30.2.155
+incoming packet, src: 128.30.2.155, dst: 192.168.206.2, outgoing circuit: 0x403
+pkt from port: 48824, length: 99, contents: 0x61040375f3fe6dbff3e90d51537fa2b94b07e12ab0788216d6a8e94ac9e986edb83fbcef5f996155d28b127d200d919f26cab48db10dbac91d29494d2c43a563498b95bb868e36a80f2a3adb866a5cdb92956877d492f3703c962c7d914dc7c2ebc2cd
+outgoing packet, circuit incoming: 0x403, incoming src: 0.0.0.0, outgoing src: 192.168.206.2, dst: 128.30.2.155
+incoming packet, src: 128.30.2.155, dst: 192.168.206.2, outgoing circuit: 0x403
+pkt from port: 48824, length: 99, contents: 0x61040305da3a1777b6a583f000311f607ff6fa3ef54288ac25d9868aefc189e90cd85a144768ea7122ce3a6aa0c5b685b92f26e027d82781ac2bdf2933bf8da12c3d18eed0896ab78dd3c921b413a952b93f0618f301c38ebda34da70881e5d6a64882
+outgoing packet, circuit incoming: 0x403, incoming src: 0.0.0.0, outgoing src: 192.168.206.2, dst: 128.30.2.155
+incoming packet, src: 128.30.2.155, dst: 192.168.206.2, outgoing circuit: 0x403

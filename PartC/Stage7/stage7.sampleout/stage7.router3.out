@@ -1,0 +1,22 @@
+router: 3, pid: 9229, port: 45844, IP: 192.168.203.2
+pkt from port: 47705, length: 19, contents: 0x6501014fcbad994aee4aa16a0bf70afcf6a6cf
+fake-diffie-hellman, new circuit incoming: 0x101, key: 0x4fcbad994aee4aa16a0bf70afcf6a6cf
+pkt from port: 47705, length: 19, contents: 0x6201016bf62c2ca301f5cbf8fa25c5aeb17057
+new extend circuit: incoming: 0x101, outgoing: 0x301 at 65535
+pkt from port: 47705, length: 67, contents: 0x610101a785db0077555726c41507aef3c5bdbb8e2530bc0771e7bdd36973d4580cafb2bad7e21ccde9fe029c4e5bc2ec449d6e556b65135c297b537d7c940033561677
+outgoing TCP packet, circuit incoming: 0x101, incoming src IP/port:0.0.0.0:53852, outgoing src IP/port: 192.168.203.2:53852, dst IP/port: 128.9.160.91:80, seqno: 2584944115, ackno: 0
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:53852, seqno: 3248065848, ackno: 2584944116, outgoing circuit: 0x101
+pkt from port: 47705, length: 51, contents: 0x610101d3f24e30732d99287f39bd6c26cb9d3a257ca47aa5b40495eb9ec8de869c80e2d565d425c6d71487a7a31fcd6af3df5a
+outgoing TCP packet, circuit incoming: 0x101, incoming src IP/port:0.0.0.0:53852, outgoing src IP/port: 192.168.203.2:53852, dst IP/port: 128.9.160.91:80, seqno: 2584944116, ackno: 3248065849
+pkt from port: 47705, length: 51, contents: 0x610101bcd60b535857121dde681b3fd9342822c46047d391f636820074363aad953dd52dfa19260caa568c5f06c4db91453842
+outgoing TCP packet, circuit incoming: 0x101, incoming src IP/port:0.0.0.0:53852, outgoing src IP/port: 192.168.203.2:53852, dst IP/port: 128.9.160.91:80, seqno: 2584944116, ackno: 3248065849
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:53852, seqno: 3248065849, ackno: 2584944122, outgoing circuit: 0x101
+pkt from port: 47705, length: 51, contents: 0x6101014ac5495ce7001ccfd8a81a1b3617d03a534b540283eb6147e212176f85b6f101d5486ea2ea6746538f90cca4a2c8099c
+outgoing TCP packet, circuit incoming: 0x101, incoming src IP/port:0.0.0.0:53852, outgoing src IP/port: 192.168.203.2:53852, dst IP/port: 128.9.160.91:80, seqno: 2584944122, ackno: 3248065849
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:53852, seqno: 3248065849, ackno: 2584944122, outgoing circuit: 0x101
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:53852, seqno: 3248066392, ackno: 2584944122, outgoing circuit: 0x101
+pkt from port: 47705, length: 51, contents: 0x610101e6bca3ad53d56070a28a8c3f89384224c5ba082ada2d63e8e01be7309399f5e0d9e338ba27cffddd1f03a2e5a0e093bf
+outgoing TCP packet, circuit incoming: 0x101, incoming src IP/port:0.0.0.0:53852, outgoing src IP/port: 192.168.203.2:53852, dst IP/port: 128.9.160.91:80, seqno: 2584944123, ackno: 3248066392
+incoming TCP packet, src IP/port: 128.9.160.91:80, dst IP/port: 192.168.203.2:53852, seqno: 3248066393, ackno: 2584944123, outgoing circuit: 0x101
+pkt from port: 47705, length: 51, contents: 0x610101585b148c157115a1e5a7d5d07a848f18b182a2176e7e759deb88c7eaf2d9f3047a20b8666a44f0eb308159f4b4987725
+outgoing TCP packet, circuit incoming: 0x101, incoming src IP/port:0.0.0.0:53852, outgoing src IP/port: 192.168.203.2:53852, dst IP/port: 128.9.160.91:80, seqno: 2584944123, ackno: 3248066393

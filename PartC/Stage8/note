@@ -1,0 +1,9 @@
+501 Error
+
+Initially packet lengths are 271 unlike the TA’s 661.
+
+But the 661 gives the correct html file
+
+Each circuit for each router has a different AES key,
+
+create a map (hash) from key = my Circuit ID, data = AES Key

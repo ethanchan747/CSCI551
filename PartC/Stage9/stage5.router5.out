@@ -1,0 +1,27 @@
+router: 5, pid: 2472, port: 53007, IP: 192.168.205.2
+pkt from port: 37126, length: 19, contents: 0x6500025c948d3ec9aa924f1e5fce722758ac43
+fake-diffie-hellman, new circuit incoming: 0x2, key: 0x5c948d3ec9aa924f1e5fce722758ac43
+pkt from port: 37126, length: 19, contents: 0x62000226b0e273ed680ed97b97f50f7064507c
+new extend circuit: incoming: 0x02, outgoing: 0x502 at 48354
+pkt from port: 37126, length: 35, contents: 0x6500027c9e3af62fdeda9ce81eb3a4c4ca9da5db61731af088fcbeb83a0a888aba4f22
+fake-diffie-hellman, forwarding,  circuit incoming: 0x2, key: 0x5890893acdae964b1a5bca76235ca847db61731af088fcbeb83a0a888aba4f22
+pkt from port: 37126, length: 35, contents: 0x620002f1072c582b3523b120ca04039f74b079290176517369df62505ed9e423f300e0
+forwarding extend circuit: incoming: 0x2, outgoing: 0x502 at 48354
+pkt from port: 48354, length: 3, contents: 0x630502
+forwarding extend-done circuit: incoming: 0x502, outgoing: 0x02 at 37126
+pkt from port: 37126, length: 51, contents: 0x65000273ece501139cf8e64837a3a95a8ccf6cc47aeb3b6192101f46453ba29f117bf60791d7145d656c0b153945fc654f2541
+fake-diffie-hellman, forwarding,  circuit incoming: 0x2, key: 0x6398fdc3318a9e4e91d09f51ab7cccd982ebdeb6eb6543ebadfb4e5b31e20d6b0791d7145d656c0b153945fc654f2541
+pkt from port: 37126, length: 51, contents: 0x6200025941f09e4a621dbd9140281b96d43c58ba6475b6595fc77947ff33e4a73eca34d269a6406181276d9f4cab722d45c4cf
+forwarding extend circuit: incoming: 0x2, outgoing: 0x502 at 48354
+pkt from port: 48354, length: 3, contents: 0x630502
+forwarding extend-done circuit: incoming: 0x502, outgoing: 0x02 at 37126
+pkt from port: 37126, length: 131, contents: 0x61000286d9780002efda6f87f8586add5c8a8641c5e4220ee3ffa6385cfa29bdc652ee7db96806107d54db8a467803fdb09ff91415014a804c7615bcf16edf6fae776c303647fd2d6ce870c807d6d097fdf6fbc1f1684951e7db811d45a43bb25619892084dae1ce6f178c1041ad2bdbb276f757cbc50cbf226dc9ca53a4621af0f85c
+relay encrypted packet, circuit incoming: 0x02, outgoing: 0x502
+pkt from port: 37126, length: 131, contents: 0x6100025a1ea29829902f4f661c5ec9e8765d46b0f2756c7506c111617a64a4d882f8e90618a32fabdadc7d4e1cdce00bbe7da003636ce215ed11fb6d19b0dbb107d9b4f7c370a5e67ed45b13534003262deac22f2c8bcd178638d1a8dc445531f103a97684bbd00e729c44439029a8622705ebf35c2f34f21121db1b5d78d4907bb0e8
+relay encrypted packet, circuit incoming: 0x02, outgoing: 0x502
+pkt from port: 48354, length: 115, contents: 0x6405027ed0205850d9631bfa28399683229b3540f927d7d9ecc6d6b07fb85515137189f3420f7621a64ca11ec28be630854993aa4a21a3b1176a4df8cc07e52bad35e7a23d8dbb9e52ed696a9e58b3d00391860000c739d5daf031a0ac2c45b23dd897e594f58fa55e74d3219ce2b967af1dc3
+relay reply encrypted packet, circuit incoming: 0x502, outgoing: 0x02
+router 53007 worried about 48354 on circuit 0x02
+pkt from port: 48354, length: 7, contents: 0x920002e2bc1fcb
+router 53007 worried about 48354 on circuit 0x02
+router b09c worried about 0 on circuit 01router bcb0 worried about 0 on circuit 01router b09c worried about 0 on circuit 01router bcb0 worried about 0 on circuit 01router bcb0 worried about 0 on circuit 01router b09c worried about 0 on circuit 01

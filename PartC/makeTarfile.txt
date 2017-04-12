@@ -1,0 +1,7 @@
+Writeup by Ethan Chan 1801654130
+
+1) Enter file you want to create the tar.gz file of via terminal
+
+2) In terminal type tar -cvzf “filename”.tar.gz .
+
+3) Done

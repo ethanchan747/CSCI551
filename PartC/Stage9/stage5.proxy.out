@@ -1,0 +1,55 @@
+proxy port: 37126
+router: 6, pid: 2471, port: 36531, IP: 192.168.206.2
+router: 4, pid: 2473, port: 51999, IP: 192.168.204.2
+router: 5, pid: 2472, port: 53007, IP: 192.168.205.2
+router: 2, pid: 2475, port: 33696, IP: 192.168.202.2
+router: 3, pid: 2474, port: 48559, IP: 192.168.203.2
+router: 1, pid: 2476, port: 48354, IP: 192.168.201.2
+hop: 1, router: 4
+hop: 2, router: 6
+hop: 3, router: 1
+new-fake-diffie-hellman, router index: 4, circuit outgoing: 0x01, key: 0x15a980d29441410a07ac56e1d7428b77
+pkt from port: 51999, length: 3, contents: 0x630001
+incoming extend-done circuit, incoming: 0x01 from port: 51999
+new-fake-diffie-hellman, router index: 6, circuit outgoing: 0x01, key: 0x17ab82d09643430805ae54e3d5408975
+pkt from port: 51999, length: 3, contents: 0x630001
+incoming extend-done circuit, incoming: 0x01 from port: 51999
+new-fake-diffie-hellman, router index: 1, circuit outgoing: 0x01, key: 0x10ac85d7914444f02a953e4d2478e72
+pkt from port: 51999, length: 3, contents: 0x630001
+incoming extend-done circuit, incoming: 0x01 from port: 51999
+ICMP from tunnel, src: 10.0.2.15, dst: 128.30.2.155, type is: 8
+ICMP from tunnel, src: 10.0.2.15, dst: 128.30.2.155, type is: 8
+pkt from port: 51999, length: 131, contents: 0x6400010d4d3e3e684483aa9150f6f231e0153f99befd0d1b39f51bee5aac81be92c7b730094aa6b1e6e44f8a5a1bd9e5cb877db9d7299f4617734ca507eb25758816c3485f5130f9888976fa76b1af1203c526fa6ef8493fcfa7a6dcb5281e2698ec43d781a384bdd536b0794084baf0d361875a024617d5f053e1bddd43d132f008df
+incoming packet, circuit incoming: 0x1, src: 128.30.2.155, dst: 10.0.2.15
+ICMP from tunnel, src: 10.0.2.15, dst: 128.30.2.155, type is: 8
+pkt from port: 51999, length: 131, contents: 0x640001edd55892cce9e7ab7ea77c5715d03f40b9336d3feb61009f04a915d89935e779088e7ac4429d18eae0b941f132df4c55bade6226ebde83e454fbbbea5662ba6d95b48f7bb736067f61a010cd6f680ef2a7ca1014b34712a7b4f8d859ba9605f2a0277892d3281121c2551a640069935da77d346d5ccb9c4d299b02478ccb95ca
+incoming packet, circuit incoming: 0x1, src: 128.30.2.155, dst: 10.0.2.15
+ICMP from tunnel, src: 10.0.2.15, dst: 128.30.2.155, type is: 8
+pkt from port: 51999, length: 131, contents: 0x640001806b1ef264b6a2b087a8130ff3201a799052fe741766d85a9b721987c99717efeb67d60ebe10791dff6f2500bfa6b7436487f4a9bba325711fef2caa1474fc235dd5301b66f252ef800adbc6316fececc66b6d3b77175e07ca91f040689b6865e17b218027e665e1b948aff62bfa431338c1c94e6f2f7f5e948b7b90dc7e7958
+incoming packet, circuit incoming: 0x1, src: 128.30.2.155, dst: 10.0.2.15
+ICMP from tunnel, src: 10.0.2.15, dst: 128.30.2.155, type is: 8
+ICMP from tunnel, src: 10.0.2.15, dst: 128.30.2.155, type is: 8
+ICMP from tunnel, src: 10.0.2.15, dst: 128.30.2.155, type is: 8
+ICMP from tunnel, src: 10.0.2.15, dst: 128.30.2.155, type is: 8
+pkt from port: 51999, length: 7, contents: 0x9200011fcbb38e
+router-worried message received, circuit 0x01, SELF-NAME: 51999, NEXT-NAME: 36531
+hop: 1, router: 5
+hop: 2, router: 1
+hop: 3, router: 4
+new-fake-diffie-hellman, router index: 5, circuit outgoing: 0x02, key: 0x5c948d3ec9aa924f1e5fce722758ac43
+pkt from port: 53007, length: 3, contents: 0x630002
+incoming extend-done circuit, incoming: 0x02 from port: 53007
+new-fake-diffie-hellman, router index: 1, circuit outgoing: 0x01, key: 0x5890893acdae964b1a5bca76235ca847
+pkt from port: 53007, length: 3, contents: 0x630002
+incoming extend-done circuit, incoming: 0x02 from port: 53007
+new-fake-diffie-hellman, router index: 4, circuit outgoing: 0x01, key: 0x5d958c3fc8ab934e1f5ecf732659ad42
+pkt from port: 53007, length: 3, contents: 0x630002
+incoming extend-done circuit, incoming: 0x02 from port: 53007
+ICMP from tunnel, src: 10.0.2.15, dst: 128.30.2.155, type is: 8
+ICMP from tunnel, src: 10.0.2.15, dst: 128.30.2.155, type is: 8
+pkt from port: 53007, length: 131, contents: 0x64000242e55e7eeb7f552b158c191fa1e8e89125bcbff903dd5b1bcbe1df4d1700c22aa0938f247d0b29f4bfcda11c3c5f43f74f563607cc8ea63d8f905de7b72d31a33dd4d6fb54db160b7182c38ea0e544eaf81ca58c4e5edc10c87766539381326eef14448dbbdbcc7b38941759fec8a83d56053d7738b213bc77bc0de6c5ec5a0a
+incoming packet, circuit incoming: 0x2, src: 128.30.2.155, dst: 10.0.2.15
+pkt from port: 53007, length: 7, contents: 0x9200020fcfe2bc
+router-worried message received, circuit 0x02, SELF-NAME: 53007, NEXT-NAME: 48354
+pkt from port: 53007, length: 7, contents: 0x9200020fcfe2bc
+router-worried message received, circuit 0x02, SELF-NAME: 53007, NEXT-NAME: 48354

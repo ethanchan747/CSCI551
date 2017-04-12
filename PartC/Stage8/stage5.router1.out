@@ -1,0 +1,67 @@
+router: 1, pid: 2328, port: 37477, IP: 192.168.201.2
+pkt from port: 33584, length: 19, contents: 0x65030147b77b0516ad23ce4ecf916c31c4b8c1
+fake-diffie-hellman, new circuit incoming: 0x301, key: 0x47b77b0516ad23ce4ecf916c31c4b8c1
+pkt from port: 33584, length: 19, contents: 0x620301f93914336fae37cdbaa3eff5d03d63bb
+new extend circuit: incoming: 0x301, outgoing: 0x101 at 56763
+pkt from port: 33584, length: 35, contents: 0x65030170af853f9a5ebdc9cbaf429b30e26f3acdcf27aa0b4c00deb05e073854fcad20
+fake-diffie-hellman, forwarding,  circuit incoming: 0x301, key: 0x43b37f0112a927ca4acb956835c0bcc5cdcf27aa0b4c00deb05e073854fcad20
+pkt from port: 33584, length: 35, contents: 0x620301f7ddce6bad6ebb9472348e1310abf1e02a9aa330976d3eb465efceea8b1441f8
+forwarding extend circuit: incoming: 0x301, outgoing: 0x101 at 56763
+pkt from port: 56763, length: 3, contents: 0x630101
+forwarding extend-done circuit: incoming: 0x101, outgoing: 0x301 at 33584
+pkt from port: 33584, length: 83, contents: 0x61030117656febdbf3223eadffc936a1e39c81ad2faad93cbcdc8b5bc753fad886dabdc8e29e29928205dbe685756b90ebeaa622a1d75b720d60d1d4826a0c2786f2bb65efa375f3be85bd1d6cbdaadd65fbff
+relay encrypted packet, circuit incoming: 0x301, outgoing: 0x101
+pkt from port: 33584, length: 83, contents: 0x61030169be42605a76bdb6026ecb0458eb41c9b07ec35efdf010158f79be89ce3ce322e15c9c51ead84b892ae828931c812b7d29081da88e4f1db8a44c6caef04521750b596d6a02535d9b9c117cf8f2c44493
+relay encrypted packet, circuit incoming: 0x301, outgoing: 0x101
+pkt from port: 33584, length: 83, contents: 0x61030103672924ec5d5d456f0122575f4187caf1521a1441e8e074b9ee1609640dc1bd99b3fce440cd099471e6ed69a8b49dbe6a375735c348f45bf4a67cf678d80b880ad56c8fee41e6a5bddf5416798614cd
+relay encrypted packet, circuit incoming: 0x301, outgoing: 0x101
+pkt from port: 56763, length: 51, contents: 0x640101dfba546fc056593948a8c3b412599f3758234c81ee38d8c1be5c4496e43c0b941823ca9c42bfd35241cf5572f7c2e0f0
+relay reply encrypted packet, circuit incoming: 0x101, outgoing: 0x301
+pkt from port: 33584, length: 67, contents: 0x610301417e54d047bade840f6535921ca5a877fe039fbc3bde13baad45e3f195da9505d22f1a269b6e3b2fc2d9041c46fce4f8d304f3eeda2164417e9532bfaa6fbb84
+relay encrypted packet, circuit incoming: 0x301, outgoing: 0x101
+pkt from port: 33584, length: 67, contents: 0x610301ada13b1dc34eb0e17832d138d2469755ef6f1d6d4d3fb964716a2442c47ab681f93b93942941461015797f7c3241f8bf15ba86aad07fba0d6eb3193f94c62df1
+relay encrypted packet, circuit incoming: 0x301, outgoing: 0x101
+pkt from port: 33584, length: 67, contents: 0x610301085b7c706c99ddb04bd05f808279e2fefe79420405158318a723807fba49f51ffefa55a941936f093341b09d42a0a3bdfbcccb34e8bc14d79c794c92a295b3e1
+relay encrypted packet, circuit incoming: 0x301, outgoing: 0x101
+pkt from port: 56763, length: 51, contents: 0x640101700c9be6124db9108b71cce8aca334e817a5342d50b72c9398cbd54fc2e941ad341d0f2f726cf1719f8619594637b4c6
+relay reply encrypted packet, circuit incoming: 0x101, outgoing: 0x301
+pkt from port: 56763, length: 51, contents: 0x640101c90f27a05a8b1fb6b9e59005c70b34b2149ce612d5f19c46e35415900a5db19ae29aa3d627768e4a0164b082de8a718a
+relay reply encrypted packet, circuit incoming: 0x101, outgoing: 0x301
+pkt from port: 56763, length: 371, contents: 0x64010118dd4e3bb2731a9e3390517aa9bb6029ef9a695f0a6ae3954dd9708db5c665ec0fdb690fb9a30a623daaa06d12195ec3f2e45e006c3837d496b35ca79ed137af9cf9458daf75e75dff3de39d604af14a84b663a4f47efcf5a0398978236aaf7bd7bdf6e4700a2167a70937e19c5e893c6ff10157a24678e6f4531ec6deddfc6548b7e7f288a9f48cc124b4f2afa27fda05248720d3b56da01c03456481f71fb892232ff89e42185981bcbe4dee1157d71f1e8e3cbee443f3880d683a395df45f8d806622f30e5c02731017aed06ee9506e7fb949743f080700684b42277e7bfcfd4fcd41fe22e83c97bbcf2ef3de2ed7371cc741d7ec11f4a4d705394de69d53192ee9685ca09ffd5f82abc45129375adcb7d3d0e2b6a04e8d1d0aa5084e3ea11a158a027e4ed1a5b02a2204cb97a61c336c52a1c7c246fcb3706744f17b58e189f5a92fa430837b068c3ddabb968342fc10997c7840b17079a974b848ae233e8c4d4095937a45d02daa2d04ec4337fe
+relay reply encrypted packet, circuit incoming: 0x101, outgoing: 0x301
+pkt from port: 56763, length: 51, contents: 0x640101911dd5f289e979943b2af4630a7e7a3dbc01c71a689d2f661a6d46b060f159005d1749c1218704d82309e23c10ad07d5
+relay reply encrypted packet, circuit incoming: 0x101, outgoing: 0x301
+pkt from port: 33584, length: 67, contents: 0x610301b1538e83f3719a279e12ef77db8e6a5aa5f7b58a9b273db661bcab586109abe9a3fe6990208c57bba400e4cd4b1b95b01ef552ddaceaab92b4a786bebaeb3ef2
+relay encrypted packet, circuit incoming: 0x301, outgoing: 0x101
+pkt from port: 33584, length: 67, contents: 0x6103012022cb1b27bc6e112bd05ae62c052e8540f91e4499713dd86ccbce6868fd08d91a16911e48232b7064294c2f3cd91a214e00151de5809fbd7c3fb8b52d13d728
+relay encrypted packet, circuit incoming: 0x301, outgoing: 0x101
+pkt from port: 42240, length: 19, contents: 0x650003ddbbe6433db6e3dbeac8d2405980473a
+fake-diffie-hellman, new circuit incoming: 0x03, key: 0xddbbe6433db6e3dbeac8d2405980473a
+pkt from port: 42240, length: 19, contents: 0x62000345852bba5fcbe83f8cef1af50514f17e
+new extend circuit: incoming: 0x03, outgoing: 0x103 at 48824
+pkt from port: 42240, length: 35, contents: 0x650003d25ea44720b23ee4bcdc0866575432c99adbed298879ab761e13cd60b774e7de
+fake-diffie-hellman, forwarding,  circuit incoming: 0x3, key: 0xd8bee34638b3e6deefcdd7455c85423f9adbed298879ab761e13cd60b774e7de
+pkt from port: 42240, length: 35, contents: 0x6200036ced7181ae5fd4c2d745d0dce0c414baf52407b113e0bc7c7afd4d5084970beb
+forwarding extend circuit: incoming: 0x3, outgoing: 0x103 at 48824
+pkt from port: 48824, length: 3, contents: 0x630103
+forwarding extend-done circuit: incoming: 0x103, outgoing: 0x03 at 42240
+pkt from port: 42240, length: 51, contents: 0x6500033e6e82ee3662603c2ee7748804b761692548ea220eaab83ad58a937cf78d7362602e99c628bc3f74509f84d381ea55fa
+fake-diffie-hellman, forwarding,  circuit incoming: 0x3, key: 0xeba71ce46ddb5ca4d9b8420761bef2eec34b8f9165acc8dfd333dae90664aa8602e99c628bc3f74509f84d381ea55fa
+pkt from port: 42240, length: 51, contents: 0x620003aa7b0d859e0edbdc8962098b7adc74d92d80e6c2cece4bd66fc89dc1b8070f8970bb6f57decc2b55051ca2f491f8806c
+forwarding extend circuit: incoming: 0x3, outgoing: 0x103 at 48824
+pkt from port: 48824, length: 3, contents: 0x630103
+forwarding extend-done circuit: incoming: 0x103, outgoing: 0x03 at 42240
+pkt from port: 42240, length: 131, contents: 0x610003a4a1068eec5d4698d6c8a0ce47e8c1b1d10ef5a2930fc9601cb726ba14aca265633408f0d8749349854d12e026c07c3d2d6fd5162c723d3110667b0e3309e6bdc66576d42d02812ec46ac2471c2dca0070c30704c9e3d64b5e0820a3aa67451a87209ad1a05090eacc80edb9b93048cf9dd1011ff4c284942dc025e29e182e85
+relay encrypted packet, circuit incoming: 0x03, outgoing: 0x103
+pkt from port: 42240, length: 131, contents: 0x610003d480c406bb8bb5b52873f0bfefec6c0aa1e822265d93aee384252caf1c4d2f8795ee5acd7f35158932315b5d1b1e9bb2134b3962a9a712964ed7d46cbf9859b3c01fc3d8fd739da5adb641a0b3821504e96aa12357ab0ae5b311dfef99ea260692e266c86e72421a5c1bd7a77ae9a75008c477eb8c4ad26e33b4fe54cb06d871
+relay encrypted packet, circuit incoming: 0x03, outgoing: 0x103
+pkt from port: 48824, length: 115, contents: 0x640103804fd2ed825a7eca0dc993b7a875be267a38815a930dda6a8c13d5d7d654ffadf2ec684bf555c86d726e074c2799bb357a26302c8a777553247aaf5b5263fb720a7fe3f87d72c8716be41d632fb0f070924e9d1dbc0689655f41f9010331eba77e38977bdb05756101044efd4b3b8416
+relay reply encrypted packet, circuit incoming: 0x103, outgoing: 0x03
+pkt from port: 42240, length: 131, contents: 0x610003c26f17949fd1805205c39859180d7be36824ae9e9d26033bb90f2660657368a94015d0f13e7e63fb7de063ec960c51e934aeb067ef90e2ab6c79d3ec2e6c0d758b9c1ae959f07bb88ecc9baa900433941103718356bff5f762687551f987a8f9c32da218a3efa7c6e67fb63175ff889d6bc34448ba27eabb92a95427a42cb3b3
+relay encrypted packet, circuit incoming: 0x03, outgoing: 0x103
+pkt from port: 48824, length: 115, contents: 0x640103eab8122448a9b0217d18c3ca998f1ae3a1946c59fcc256573cb08d38242c84b6823f89302b578617977c2cd7aba6521733c9c0fe2a3e59faefb086c93337c47dfeba33808e579eb7318ca9347154767ba9ca783868600cc091e9ff6cf8a799f43e88459d3ac506b83cd8bb13acdf4da6
+relay reply encrypted packet, circuit incoming: 0x103, outgoing: 0x03
+pkt from port: 42240, length: 131, contents: 0x6100033a47a47aaa76d2de45aa46afaf230c88595146d8caf4ac9d7f96279e37fa00f830f201e3895221571249d2bcff9dbbeb471f1925afd5df481705ef89f266b5aa21d11c828f4b0801dd1dbaf73956f5815cacba5d2fdeee9d3f8b5babad3dc090a2c62a9af8f36fbec471acc252b9dfb41e5192d5a9ef1f10fc762018b65be450
+relay encrypted packet, circuit incoming: 0x03, outgoing: 0x103
+pkt from port: 48824, length: 115, contents: 0x6401038cfef0947ddb06df494a7aa4017f27d24150ade03cd5d09e7600e6a8342b0af56bca36cf3f1a631380055eb6864ad7f820cdf2e80a08777d61d807376cbec9fe71341ef379e9a5c4c8d1eac82aedd40a806e133d1422a1f799c7551647eb6f9963d650b2e63941d9d6d610a68ead7499
+relay reply encrypted packet, circuit incoming: 0x103, outgoing: 0x03

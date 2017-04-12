@@ -1,0 +1,35 @@
+proxy port: 34565
+router: 5, pid: 3979, port: 49994, IP: 192.168.205.2
+router: 6, pid: 3978, port: 56039, IP: 192.168.206.2
+router: 3, pid: 3981, port: 49632, IP: 192.168.203.2
+router: 2, pid: 3982, port: 55673, IP: 192.168.202.2
+router: 4, pid: 3980, port: 56632, IP: 192.168.204.2
+router: 1, pid: 3983, port: 38279, IP: 192.168.201.2
+hop: 1, router: 5
+hop: 2, router: 2
+hop: 3, router: 1
+new-fake-diffie-hellman, router index: 5, circuit outgoing: 0x01, key: 0xc30bcdd5a771825bf2b59eca621d74f4
+pkt from port: 49994, length: 3, contents: 0x630001
+incoming extend-done circuit, incoming: 0x01 from port: 49994
+new-fake-diffie-hellman, router index: 2, circuit outgoing: 0x01, key: 0xc40ccad2a076855cf5b299cd651a73f3
+pkt from port: 49994, length: 3, contents: 0x630001
+incoming extend-done circuit, incoming: 0x01 from port: 49994
+new-fake-diffie-hellman, router index: 1, circuit outgoing: 0x01, key: 0xc7fc9d1a375865ff6b19ace661970f0
+pkt from port: 49994, length: 3, contents: 0x630001
+incoming extend-done circuit, incoming: 0x01 from port: 49994
+TCP from tunnel, src IP/port: 10.0.2.15:749, dst IP/port: 128.9.160.91:20480, seqno: 1712783040, ackno: 0
+pkt from port: 49994, length: 83, contents: 0x6400017c6bc7db24b38c88b0dc4d9ffa0b152278196ffdf1e645fd0e324ca6fab7910cec506b0dd727cc6cb8688070bb2d282d4db5e8c285904a6bd3bfdcbc80271ab1cecabe854d40641599497a5268ae9ff8
+incoming TCP packet, circuit incoming: 0x1, incoming src IP/port: 128.9.160.91:5000, dst IP/port: 10.0.2.15:2ed, seqno: 14c5720, ackno: 6716fec0
+TCP from tunnel, src IP/port: 10.0.2.15:2ed, dst IP/port: 128.9.160.91:5000, seqno: 6716fec0, ackno: 24c5720
+TCP from tunnel, src IP/port: 10.0.2.15:2ed, dst IP/port: 128.9.160.91:5000, seqno: 6716fec0, ackno: 24c5720
+TCP from tunnel, src IP/port: 10.0.2.15:2ed, dst IP/port: 128.9.160.91:5000, seqno: 6c16fec0, ackno: 24c5720
+pkt from port: 49994, length: 83, contents: 0x64000193248faffa67f2c3216b49b068233f604497ad2fbb21f3a34276203762659616463d00c2ab0941753ef3608154952f741d727db17dcf24b8426b283500ed40a97aff8115b37b58f21237a0be2448ff0f
+incoming TCP packet, circuit incoming: 0x1, incoming src IP/port: 128.9.160.91:5000, dst IP/port: 10.0.2.15:2ed, seqno: 24c5720, ackno: 6c16fec0
+pkt from port: 49994, length: 83, contents: 0x640001847249f55fefa80f7a72701249f52452a60334fb1b85b8a65e733a2dae0bb5124c14a68160d357d288f9f106e10f802ad460b63076c1f93409bfa4f8b11b31bca9eb46ce943877be2d6dfd27fe34a38a
+incoming TCP packet, circuit incoming: 0x1, incoming src IP/port: 128.9.160.91:5000, dst IP/port: 10.0.2.15:2ed, seqno: 24c5720, ackno: 6d16fec0
+pkt from port: 49994, length: 291, contents: 0x640001033134ae82d97b95eaf9d9c668554a315667d62fc7cabf78a93b332e2e41fad4bfd80e10fd12d3eae8dfdc36d6e361cf015be8d931172e730b7acc7d2640442f233548b249823297cb37dec6111d0a2a2bf016cdc0dfec049ef9f49efb4f2b045f752a617751003160ff124d0adb037a0e168ad39ce2951d31457d1bc8042c8d8ba40aca5087f7685a6084a0829d3f8ddf66255fadb0291bd6a41490b6579cf93b4b8ac733f0a83bbebb4b73eea737d3c091e66b29bc9dcf2abac49326d763484ad1c0d28395f2cab7c2ea3445eab6a145e2c00497c13026b29bea923a2c45a22c929d2359f7cc99cb128f163634682fddf5ecefc9f76758bf8af0f25a60c36b60caee2e921f35200628dfdfdfce9cc024918a37d5f2b7d4ccfa34a376798bbf
+incoming TCP packet, circuit incoming: 0x1, incoming src IP/port: 128.9.160.91:5000, dst IP/port: 10.0.2.15:2ed, seqno: 24c5720, ackno: 6d16fec0
+TCP from tunnel, src IP/port: 10.0.2.15:2ed, dst IP/port: 128.9.160.91:5000, seqno: 6d16fec0, ackno: cc4c5720
+pkt from port: 49994, length: 83, contents: 0x64000159626a375089134398fb489bbf7c21c3e7a610c8ca1dbf3a25363f6ac973ae153421c931e321cf48dd98b28e578e8ff6d576decad18dfe5e852edbb8848ba1d55853c28d74abb822c478cecb26a2c9a8
+incoming TCP packet, circuit incoming: 0x1, incoming src IP/port: 128.9.160.91:5000, dst IP/port: 10.0.2.15:2ed, seqno: cc4c5720, ackno: 6d16fec0
+TCP from tunnel, src IP/port: 10.0.2.15:2ed, dst IP/port: 128.9.160.91:5000, seqno: 6d16fec0, ackno: cd4c5720
